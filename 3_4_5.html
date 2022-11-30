@@ -1,31 +1,51 @@
 <form action="">
 
     <fieldset>
-
-        код
-
+      <legend>Общая информация</legend>
+        <div>
+          <label for="last_name">Фамилия</label>
+          <input id=last_name type="text" placeholder="Иванов">
+        </div>
+        <div>
+          <label for="first_name">Имя</label>
+          <input id=first_name type="text" placeholder="Иван">
+        </div> 
+        <div>
+          <label for="father_name">Отчество</label>
+          <input id=father_name type="text" placeholder="Иванович">
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input id=email type="text" placeholder="mail@mail.ru">
+        </div>   
     </fieldset>
 
     <fieldset>
-
-        код
-
+      <legend>Пол</legend>
+        <div>
+          <input id=male_radio type="radio">
+          <label for="male_radio">М</label>
+          <input id=female_radio type="radio">
+          <label for="female_radio">Ж</label>
+        </div> 
     </fieldset>
 
     <fieldset>
-
-        код
-
+      <legend>Хобби</legend>
+        <div>
+          <input id=check_1 type="checkbox">
+          <label for="check_1">Рисование</label>
+          <input id=check_2 type="checkbox">
+          <label for="check_2">Чтение</label>
+          <input id=check_3 type="checkbox">
+          <label for="check_3">Вязание</label>
+          <input id=check_4 type="checkbox">
+          <label for="check_4">Кулинария</label>
+        </div> 
     </fieldset>
 
     <div>
-
-        <button></button>
-
-        <button></button>
-
+        <button>Отправить</button>
+        <button>Очистить</button>
     </div>
-
-   
-
-</form>S
+</form>
