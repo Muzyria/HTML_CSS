@@ -1,35 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<! --За отсутствие выравнивания input элементов баллы не снижаются.-->  
 <form action="">
-
     <fieldset>
       <legend>Общая информация</legend>
         <div>
           <label for="last_name">Фамилия</label>
           <input id=last_name type="text" placeholder="Иванов">
         </div>
+        <p></p>
         <div>
           <label for="first_name">Имя</label>
           <input id=first_name type="text" placeholder="Иван">
         </div> 
+        <p></p>
         <div>
           <label for="father_name">Отчество</label>
           <input id=father_name type="text" placeholder="Иванович">
         </div>
+        <p></p>
         <div>
           <label for="email">email</label>
           <input id=email type="text" placeholder="mail@mail.ru">
         </div>   
     </fieldset>
-
+    <p></p>
     <fieldset>
       <legend>Пол</legend>
-        <div>
-          <input id=male_radio type="radio">
-          <label for="male_radio">М</label>
-          <input id=female_radio type="radio">
-          <label for="female_radio">Ж</label>
-        </div> 
+      <input id="male" type="radio" placeholder="sex">
+      <label for="male">М</label>
+      <input id="female" type="radio" placeholder="sex">
+      <Label for="female">Ж</Label>
     </fieldset>
-
+    <p></p>
     <fieldset>
       <legend>Хобби</legend>
         <div>
@@ -43,9 +53,11 @@
           <label for="check_4">Кулинария</label>
         </div> 
     </fieldset>
-
+    <p></p>
     <div>
         <button type="submit">Отправить</button>
         <button type="reset">Очистить</button>
     </div>
 </form>
+</body>
+</html>
